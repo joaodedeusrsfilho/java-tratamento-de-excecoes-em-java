@@ -5,9 +5,8 @@ import java.io.*;
 
 /*Objetivo da classe = imprimir arquivo no console*/
 public class CheckedException {
-    public static <String, FileNotFoundException> void main(String[] args) {
+    public static <String> void main(String[] args) {
         java.lang.String nomeDoArquivo = "romance-black-crouch.txt";
-        java.lang.Object JOptionPane;
         try {
             imprimirArquivoNoConsole(nomeDoArquivo);
         } catch (FileNotFoundException e){//erro de arquivo não encontrado.
